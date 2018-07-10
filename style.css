@@ -1,0 +1,46 @@
+#nav, #sm-nav {
+    list-style-type: none;
+    float: right;
+}
+
+#nav li, #sm-nav li {
+    display: inline;
+}
+
+#navbar p {
+    display: inline-block;
+    visibility: hidden;
+}
+
+#welcome-section {
+    height: 100vh;
+    text-align: center;
+}
+
+#project-grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+#projects, 
+#skills, 
+#contact {
+    text-align: center;
+}
+
+#trademark {
+    display: inline-block;
+}
+
+.project-tile {
+    width: 30%;
+    margin: 1.25% 1.665%;
+    height: 47.5%;
+}
+
+.project-tile img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
