@@ -23,6 +23,14 @@
     height: 100%;
 }
 
+#skills {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    height: 100%;
+    margin: auto;
+}
+
 #projects, 
 #skills, 
 #contact {
