@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+}
+
 #nav, #sm-nav {
     list-style-type: none;
     float: right;
@@ -5,6 +10,14 @@
 
 #nav li, #sm-nav li {
     display: inline;
+}
+
+#navbar {
+    background: #eee;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
 }
 
 #navbar p {
@@ -35,6 +48,10 @@
 #skills, 
 #contact {
     text-align: center;
+}
+
+#footer {
+    background: #eee;
 }
 
 #trademark {
