@@ -69,3 +69,33 @@ body {
     display: block;
     height: auto;
 }
+
+.fa-html5:hover {
+    color: #E34F26;
+    transform: scale(1.2);
+}
+
+.fa-css3-alt:hover {
+    color: #1758A7;
+    transform: scale(1.2);
+}
+
+.fa-js:hover {
+    color: #F0DB4F;
+    transform: scale(1.2);
+}
+
+.fa-php:hover {
+    color: #6C7EB7;
+    transform: scale(1.2);
+}
+
+.fa-wordpress:hover {
+    color: #01579B;
+    transform: scale(1.2);
+}
+
+.fa-github-square:hover {
+    color: #0D2636;
+    transform: scale(1.2);
+}
