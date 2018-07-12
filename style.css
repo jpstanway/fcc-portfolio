@@ -3,6 +3,13 @@ body {
     margin-top: 50px;
 }
 
+h1,
+#projects, 
+#skills, 
+#contact {
+    text-align: center;
+}
+
 #nav, #sm-nav {
     list-style-type: none;
     float: right;
@@ -27,7 +34,14 @@ body {
 
 #welcome-section {
     height: 100vh;
-    text-align: center;
+}
+
+#introduction {
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    top: 35%;
+    left: 25%;
 }
 
 #project-grid {
@@ -42,12 +56,6 @@ body {
     width: 60%;
     height: 100%;
     margin: auto;
-}
-
-#projects, 
-#skills, 
-#contact {
-    text-align: center;
 }
 
 #footer {
