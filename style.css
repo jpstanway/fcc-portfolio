@@ -34,14 +34,16 @@ h1,
 
 #welcome-section {
     height: 100vh;
+    background-color: #c1c1c1;
 }
 
 #introduction {
-    width: 50%;
-    height: 30%;
+    width: 530px;
+    height: 312px;
     position: absolute;
     top: 35%;
     left: 25%;
+    background: url('http://res.cloudinary.com/mtninja/image/upload/c_scale,h_312,w_530/v1531367704/portfolio-console_yrpuh0.png');
 }
 
 #project-grid {
