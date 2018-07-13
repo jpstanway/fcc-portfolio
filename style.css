@@ -1,9 +1,15 @@
 body {
     margin: 0;
     margin-top: 50px;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-h1,
+h2, 
+#nav li, 
+#sm-nav {
+    font-family: "Ubuntu", sans-serif;
+}
+
 #projects, 
 #skills, 
 #contact {
@@ -15,8 +21,19 @@ h1,
     float: right;
 }
 
+#nav, #footer {
+    padding: 0 50px;
+}
+
 #nav li, #sm-nav li {
     display: inline;
+    margin-right: 15px;
+    font-size: 1.1em;
+}
+
+#nav a, #sm-nav a {
+    text-decoration: none;
+    color: #fff;
 }
 
 #navbar {
@@ -72,22 +89,22 @@ h1,
 }
 
 #footer {
-    background: #eee;
+    background: #20b2aa;
 }
 
 #trademark {
     display: inline-block;
 }
 
-.console-name {
+#console-name {
     color: #DBDBBD;
 }
 
-.console-intro {
+#console-intro {
     color: #68689D;
 }
 
-.console-list {
+#console-list {
     color: #BDBDDB;
 }
 
