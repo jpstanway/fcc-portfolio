@@ -20,11 +20,12 @@ h1,
 }
 
 #navbar {
-    background: #eee;
+    background: #20b2aa;
     width: 100%;
     position: fixed;
     top: 0;
     right: 0;
+    z-index: 2;
 }
 
 #navbar p {
@@ -34,16 +35,26 @@ h1,
 
 #welcome-section {
     height: 100vh;
-    background-color: #c1c1c1;
+    background-color: #20b2aa;
+    display: flex;
+    justify-content: center;
 }
 
 #introduction {
     width: 530px;
     height: 312px;
-    position: absolute;
-    top: 35%;
-    left: 25%;
+    margin-top: 25%;
+    color: #fff;
+    font-family: 'Ubuntu Mono', monospace;
     background: url('http://res.cloudinary.com/mtninja/image/upload/c_scale,h_312,w_530/v1531367704/portfolio-console_yrpuh0.png');
+}
+
+#introduction p {
+    padding: 20px 10px 0px 10px;
+}
+
+#introduction li {
+    padding-right: 15px;
 }
 
 #project-grid {
@@ -66,6 +77,18 @@ h1,
 
 #trademark {
     display: inline-block;
+}
+
+.console-name {
+    color: #DBDBBD;
+}
+
+.console-intro {
+    color: #68689D;
+}
+
+.console-list {
+    color: #BDBDDB;
 }
 
 .project-tile {
