@@ -16,24 +16,8 @@ h2,
     text-align: center;
 }
 
-#nav, #sm-nav {
-    list-style-type: none;
-    float: right;
-}
-
 #nav, #footer {
     padding: 0 50px;
-}
-
-#nav li, #sm-nav li {
-    display: inline;
-    margin-right: 15px;
-    font-size: 1.1em;
-}
-
-#nav a, #sm-nav a {
-    text-decoration: none;
-    color: #fff;
 }
 
 #navbar {
@@ -74,6 +58,15 @@ h2,
     padding-right: 15px;
 }
 
+#projects {
+    background: url('http://res.cloudinary.com/mtninja/image/upload/v1531451394/small_steps_ulmqg5.png');
+    padding: 20px 0;
+}
+
+#projects h2 {
+    margin-top: 0;
+}
+
 #project-grid {
     display: flex;
     flex-wrap: wrap;
@@ -89,11 +82,12 @@ h2,
 }
 
 #footer {
-    background: #20b2aa;
+    background: #aa20b2;
 }
 
 #trademark {
     display: inline-block;
+    color: #fff;
 }
 
 #console-name {
@@ -108,16 +102,51 @@ h2,
     color: #BDBDDB;
 }
 
+.menu {
+    list-style-type: none;
+    float: right;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 15px;
+    font-size: 1.1em;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu a:hover,
+a:hover {
+    color: #b2aa20;
+}
+
 .project-tile {
     width: 30%;
     margin: 1.25% 1.665%;
     height: 47.5%;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.56);
+    border-radius: 2px;
 }
 
 .project-tile img {
     max-width: 100%;
     display: block;
     height: auto;
+}
+
+.project-tile:hover {
+    opacity: 0.75;
+}
+
+.certification {
+    background-color: #b2aa20;
+    width: 50%;
+    margin: 40px auto;
+    border-radius: 4px;
+    padding: 20px 40px;
 }
 
 .fa-html5:hover {
