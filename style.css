@@ -203,7 +203,20 @@ a:hover {
     width: 50%;
     margin: 40px auto;
     border-radius: 4px;
+}
+
+.certification a {
+    text-decoration: none;
+    color: #000;
+}
+
+.certification a:hover {
+    color: #eee;
+}
+
+.certification h3 {
     padding: 20px 40px;
+    height: 100%;
 }
 
 .fa-html5:hover {
