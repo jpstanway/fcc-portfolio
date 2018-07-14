@@ -23,6 +23,7 @@ a:hover {
 #nav {
     list-style-type: none;
     float: right;
+    padding-right: 50px;
 }
 
 #nav li {
@@ -36,16 +37,12 @@ a:hover {
     color: #fff;
 }
 
-#nav, #footer {
-    padding: 0 50px;
-}
-
 #navbar {
     background: #20b2aa;
     width: 100%;
     position: fixed;
     top: 0;
-    right: 0;
+    left: 0;
     z-index: 2;
 }
 
@@ -77,6 +74,7 @@ a:hover {
 
 #introduction li {
     padding-right: 15px;
+    margin-bottom: 1.5%;
 }
 
 #cursor {
@@ -101,10 +99,13 @@ a:hover {
 
 #projects {
     background: url('http://res.cloudinary.com/mtninja/image/upload/v1531451394/small_steps_ulmqg5.png');
+}
+
+#projects-inner {
     padding: 20px 0;
 }
 
-#projects h2 {
+#projects-inner h2 {
     margin-top: 0;
 }
 
@@ -131,7 +132,7 @@ a:hover {
     width: 30%;
     margin: auto;
     text-align: left;
-    padding-left: 125px;
+    padding-left: 7%;
 }
 
 #contact-menu li {
@@ -160,6 +161,13 @@ a:hover {
 
 #console-list {
     color: #BDBDDB;
+}
+
+#nav-container,
+#projects-inner,
+#contact {
+    max-width: 1280px;
+    margin: auto;
 }
 
 .console-arrow {
@@ -220,4 +228,72 @@ a:hover {
 .fa-github-square:hover {
     color: #0D2636;
     transform: scale(1.2);
+}
+
+@media screen and (min-width: 1281px) {
+    #introduction {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+
+    #skills {
+        width: 80%;
+    }
+
+    #contact-menu {
+        padding-left: 3%;
+    }
+
+    .certification {
+        width: 60%;
+    }
+} 
+
+@media screen and (max-width: 799px) {
+
+    #contact-menu {
+        width: 60%;
+        padding-left: 25%;
+    }
+    
+    .certification {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 499px) {
+    #welcome-section {
+        padding: 0 20px;
+    }
+
+    #introduction {
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        font-size: 0.85em;
+        padding: 5px;
+    }
+
+    #skills {
+        width: 85%;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #contact-menu {
+        width: 80%;
+        padding-left: 15%;
+    }
+
+    .project-tile {
+        width: 45%;
+        margin: 1.25% 2.5%;
+    }
+
+    .certification {
+        width: 65%;
+    }
 }
