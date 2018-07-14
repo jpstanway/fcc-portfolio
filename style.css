@@ -4,7 +4,13 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-h2, 
+h1 {
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+}
+
+h1, h2, 
 #nav li {
     font-family: "Ubuntu", sans-serif;
 }
