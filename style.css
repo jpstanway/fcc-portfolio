@@ -185,6 +185,15 @@ a:hover {
     font-size: 1.1em;
 }
 
+#cc-link:hover {
+    opacity: 0.75;
+}
+
+#cc-link img {
+    position: relative;
+    top: 10px;
+}
+
 /**
 **  FOOTER
 **/
@@ -246,6 +255,13 @@ a:hover {
     padding: 20px 40px;
     height: 100%;
 }
+
+.cert-inactive {
+    background-color: #20b2aa;
+    color: #fff;
+    opacity: 0.85;
+}
+
 
 .fa-html5:hover {
     color: #E34F26;
