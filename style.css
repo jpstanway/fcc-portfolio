@@ -262,7 +262,7 @@ a:hover {
     opacity: 0.85;
 }
 
-
+/* icon hover styles */
 .fa-html5:hover {
     color: #E34F26;
     transform: scale(1.2);
@@ -273,8 +273,18 @@ a:hover {
     transform: scale(1.2);
 }
 
+.fa-sass:hover {
+    color: #FEBE89;
+    transform: scale(1.2);
+}
+
 .fa-js:hover {
     color: #F0DB4F;
+    transform: scale(1.2);
+}
+
+.fa-react:hover {
+    color: #8AD4DF;
     transform: scale(1.2);
 }
 
