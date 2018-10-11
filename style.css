@@ -140,6 +140,7 @@ a:hover {
 
 #projects {
     background: url('http://res.cloudinary.com/mtninja/image/upload/v1531451394/small_steps_ulmqg5.png');
+    box-shadow: 0px 0px 5px black;
 }
 
 #projects-inner {
@@ -260,6 +261,11 @@ a:hover {
     background-color: #20b2aa;
     color: #fff;
     opacity: 0.85;
+}
+
+.icon-text {
+    margin: 10px 0px;
+    color: #616161;
 }
 
 /* icon hover styles */
