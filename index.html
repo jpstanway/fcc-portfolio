@@ -1,185 +1,249 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        
-        <title>Jordan Stanway's Portfolio</title>
-        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-        <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i|Source+Sans+Pro:400,400i|Ubuntu:400,500,700" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-        <link href="style.css" rel="stylesheet" type="text/css">
-    </head>
-    <body>
-        <nav id="navbar">
-            <div id="nav-container">
-                <p>...</p>
-                <ul id="nav">
-                    <li><a href="#welcome-section">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#skills-awards">Skills</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>Jordan Stanway's Portfolio</title>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400i|Source+Sans+Pro:400,400i|Ubuntu:400,500,700"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+      integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+      crossorigin="anonymous"
+    />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <nav id="navbar">
+      <div id="nav-container">
+        <p>...</p>
+        <ul id="nav">
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills-awards">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <section id="welcome-section">
+      <h1>&lt;welcome /&gt;</h1>
+      <div id="introduction">
+        <p id="console-intro">
+          <span class="console-arrow">> </span
+          ><span id="console-name">Hey, i'm Jordan.</span> I'm a web developer
+          with interest in full-stack JavaScript development.
+        </p>
+        <p id="console-list">
+          <span class="console-arrow">> </span>Here are just a few things i'm
+          pretty awesome at:
+        </p>
+        <ul>
+          <li>
+            create user friendly, responsive layouts for your web app or website
+          </li>
+          <li>deliver clean, human readable code (using DRY principles)</li>
+          <li>
+            optimize your site content and navigation for SEO purposes to help
+            you rank better
+          </li>
+          <li>
+            quickly learn and adapt to any new tool or language needed to solve
+            your problem
+            <div id="cursor"></div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="projects">
+      <div id="projects-inner">
+        <h2>Featured Projects</h2>
+        <div id="project-grid">
+          <div class="project-tile">
+            <div class="project-preview">
+              <a href="https://codesandbox.io/s/m259wyrk9" target="_blank"
+                ><img
+                  src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1538782483/pomodoro-ss_huexkv.jpg"
+              /></a>
             </div>
-        </nav>
-        <section id="welcome-section">
-            <h1>&lt;welcome /&gt;</h1>
-            <div id="introduction">
-                <p id="console-intro"><span class="console-arrow">> </span><span id="console-name">Hey, i'm Jordan.</span> I'm a web developer with interest in full-stack JavaScript development.</p>
-                <p id="console-list"><span class="console-arrow">> </span>Here are just a few things i'm pretty awesome at:</p>
-                <ul>
-                    <li>create user friendly, responsive layouts for your web app or website</li>
-                    <li>deliver clean, human readable code (using DRY principles)</li>
-                    <li>optimize your site content and navigation for SEO purposes to help you rank better</li>
-                    <li>quickly learn and adapt to any new tool or language needed to solve your problem <div id="cursor"></div></li>
-                </ul>
+            <div class="project-info">
+              <h3>Pomodoro Clock</h3>
+              <p class="technologies">
+                Technologies used: React, Redux, SASS, Bootstrap
+              </p>
+              <p class="summary">
+                Counts down a timer based on session and break lengths that the
+                user selects
+              </p>
             </div>
-        </section>
-        <section id="projects">
-            <div id="projects-inner">
-                <h2>Featured Projects</h2>
-                <div id="project-grid">
-                    <div class="project-tile">
-                        <div class="project-preview">
-                            <a href="https://codesandbox.io/s/m259wyrk9" target="_blank"><img src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1538782483/pomodoro-ss_huexkv.jpg"></a>    
-                        </div>    
-                        <div class="project-info">
-                            <h3>Pomodoro Clock</h3>
-                            <p class="technologies">Technologies used: React, Redux, SASS, Bootstrap</p>
-                            <p class="summary">Counts down a timer based on session and break lengths that the user selects</p>
-                        </div>
-                    </div>
-                    <div class="project-tile">
-                        <div class="project-preview">
-                            <a href="https://codesandbox.io/s/6ww01p6rmw" target="_blank"><img src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1538782496/js-calc-ss_tiboqz.jpg"></a>
-                        </div>    
-                        <div class="project-info">
-                            <h3>Calculator</h3>
-                            <p class="technologies">Technologies used: React, Redux, SASS, Bootstrap</p>
-                            <p class="summary">A fully functional calculator app that can do basic arithmetics</p>
-                        </div>
-                    </div>
-                    <div class="project-tile">
-                        <div class="project-preview">
-                            <a href="https://codesandbox.io/s/j20n90mvyv" target="_blank"><img src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1538782509/drum-machine-ss_smigca.jpg"></a>
-                        </div>    
-                        <div class="project-info">
-                            <h3>Drum Machine</h3>
-                            <p class="technologies">Technologies used: React, Redux, SASS, Material UI, jQuery</p>
-                            <p class="summary">Audio sounds mapped over 9 drum 'pads' that can be triggered by either mouse or keyboard; includes 2 seperate sound banks that can be toggled</p>
-                        </div>
-                    </div>
-                    <div class="project-tile">
-                        <div class="project-preview">
-                            <a href="https://codepen.io/mtninja/full/KebLzr/" target="_blank"><img src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1541635420/landing-page_kdxwlp.jpg"></a>
-                        </div>    
-                        <div class="project-info">
-                            <h3>Product Landing Page</h3>
-                            <p class="technologies">Technologies used: HTML5, CSS3</p>
-                            <p class="summary">A fictional product sales page for the DJI Mavic Air Quadcopter</p>
-                        </div>
-                    </div>
-                    <div class="project-tile">
-                        <div class="project-preview">
-                            <a href="https://codepen.io/mtninja/full/VBwYja/" target="_blank"><img src="http://res.cloudinary.com/mtninja/image/upload/v1531366381/portfolio-td_gmgmyc.jpg"></a>
-                        </div>   
-                        <div class="project-info">
-                            <h3>CSS Technical Documentation</h3>
-                            <p class="technologies">Technologies used: HTML5, CSS3</p>
-                            <p class="summary">Documentation for CSS</p>
-                        </div> 
-                    </div>
-                    <div class="project-tile">
-                        <div class="project-preview">
-                            <a href="https://codepen.io/mtninja/full/pxxeqv/" target="_blank"><img src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1541635435/heat-map_kxiuyu.jpg"></a>
-                        </div>    
-                        <div class="project-info">
-                            <h3>D3 Heat Map</h3>
-                            <p class="technologies">Technologies used: d3.js, HTML5, CSS3</p>
-                            <p class="summary">A heat map showing global temperature over a period of time</p>
-                        </div> 
-                    </div>
-                </div>
-                <p>
-                    Check out more of my projects at  
-                    <a id="profile-link" href="https://github.com/jpstanway" target="_blank">Github</a> | 
-                    <a href="https://codepen.io/mtninja/" target="_blank">CodePen</a> |
-                    <a href="https://codesandbox.io/u/jpstanway" target="_blank">CodeSandbox</a>
-                </p>
-                <hr class="style-two">
-                <h2 id="skills-awards">Skills &amp; Awards</h2>
-                <div class="certification">
-                    <a href="https://www.freecodecamp.org/certification/jpstanway/responsive-web-design" target="_blank">
-                        <h3>freeCodeCamp Responsive Web Design Certification</h3>
-                    </a>    
-                </div>
-                <div class="certification">
-                    <a href="https://www.freecodecamp.org/certification/jpstanway/javascript-algorithms-and-data-structures" target="_blank">
-                        <h3>freeCodeCamp JavaScript Algorithms and Data Structures Certification</h3>
-                    </a>    
-                </div>
-                <div class="certification">
-                    <a href="https://www.freecodecamp.org/certification/jpstanway/front-end-libraries" target="_blank">
-                        <h3>freeCodeCamp Front End Libraries Certification</h3>
-                    </a>
-                </div>
-                <div class="certification">
-                    <a href="https://www.freecodecamp.org/certification/jpstanway/data-visualization" target="_blank">
-                        <h3>freeCodeCamp Data Visualization Certification</h3>
-                    </a>
-                </div>
-                <div class="certification cert-inactive">
-                    <h3>freeCodeCamp APIs and Microservices Certification (in progress)</h3>
-                </div>
-                <div class="certification cert-inactive">
-                    <h3>freeCodeCamp Information Security and Quality Assurance Certification (coming soon)</h3>
-                </div>
-                <div id="skills">
-                    <div class="skill-icon">
-                        <i class="fab fa-html5 fa-5x"></i>
-                        <p class="icon-text">HTML5</p>
-                    </div>
-                    <div class="skill-icon">
-                        <i class="fab fa-css3-alt fa-5x"></i>
-                        <p class="icon-text">CSS3</p>
-                    </div>
-                    <div class="skill-icon">
-                        <i class="fab fa-sass fa-5x"></i>
-                        <p class="icon-text">SASS</p>
-                    </div>
-                    <div class="skill-icon">
-                        <i class="fab fa-js fa-5x"></i>
-                        <p class="icon-text">JavaScript</p>
-                    </div>
-                    <div class="skill-icon">
-                        <i class="fab fa-react fa-5x"></i>
-                        <p class="icon-text">React/Redux</p>
-                    </div>
-                    <div class="skill-icon">
-                        <i class="fab fa-php fa-5x"></i>
-                        <p class="icon-text">PHP</p>
-                    </div>
-                    <div class="skill-icon">
-                        <i class="fab fa-wordpress fa-5x"></i>
-                        <p class="icon-text">WordPress</p>
-                    </div>
-                    <div class="skill-icon">
-                        <i class="fab fa-github-square fa-5x"></i>
-                        <p class="icon-text">Git/GitHub</p>
-                    </div>
-                </div>
+          </div>
+          <div class="project-tile">
+            <div class="project-preview">
+              <a href="https://codesandbox.io/s/6ww01p6rmw" target="_blank"
+                ><img
+                  src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1538782496/js-calc-ss_tiboqz.jpg"
+              /></a>
             </div>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <ul id="contact-menu">
-                <li><i class="fas fa-envelope"></i> E-mail me at <b>jpstanway@gmail.com</b></li>
-                <li><i class="fab fa-linkedin"></i> Shoot me a message on 
-                    <a href="https://www.linkedin.com/in/jordanstanway" target="_blank">LinkedIn</a></li>
-            </ul>
-            <p>You can also check out my blog at <a id="cc-link" href="http://www.codeconveyor.com" target="_blank"><img src="http://res.cloudinary.com/mtninja/image/upload/c_scale,w_200/v1534617698/cc-landing-logo_tpjics.png"></a></p>
-        </section>
-        <footer id="footer">
-            <p id="trademark">&copy; 2018 Jordan Stanway. All rights reserved.</p>
-        </footer>
-    </body>
+            <div class="project-info">
+              <h3>Calculator</h3>
+              <p class="technologies">
+                Technologies used: React, Redux, SASS, Bootstrap
+              </p>
+              <p class="summary">
+                A fully functional calculator app that can do basic arithmetics
+              </p>
+            </div>
+          </div>
+          <div class="project-tile">
+            <div class="project-preview">
+              <a href="https://codesandbox.io/s/j20n90mvyv" target="_blank"
+                ><img
+                  src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1538782509/drum-machine-ss_smigca.jpg"
+              /></a>
+            </div>
+            <div class="project-info">
+              <h3>Drum Machine</h3>
+              <p class="technologies">
+                Technologies used: React, Redux, SASS, Material UI, jQuery
+              </p>
+              <p class="summary">
+                Audio sounds mapped over 9 drum 'pads' that can be triggered by
+                either mouse or keyboard; includes 2 seperate sound banks that
+                can be toggled
+              </p>
+            </div>
+          </div>
+          <div class="project-tile">
+            <div class="project-preview">
+              <a href="https://codepen.io/mtninja/full/KebLzr/" target="_blank"
+                ><img
+                  src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1541635420/landing-page_kdxwlp.jpg"
+              /></a>
+            </div>
+            <div class="project-info">
+              <h3>Product Landing Page</h3>
+              <p class="technologies">Technologies used: HTML5, CSS3</p>
+              <p class="summary">
+                A fictional product sales page for the DJI Mavic Air Quadcopter
+              </p>
+            </div>
+          </div>
+          <div class="project-tile">
+            <div class="project-preview">
+              <a href="https://codepen.io/mtninja/full/VBwYja/" target="_blank"
+                ><img
+                  src="http://res.cloudinary.com/mtninja/image/upload/v1531366381/portfolio-td_gmgmyc.jpg"
+              /></a>
+            </div>
+            <div class="project-info">
+              <h3>CSS Technical Documentation</h3>
+              <p class="technologies">Technologies used: HTML5, CSS3</p>
+              <p class="summary">Documentation for CSS</p>
+            </div>
+          </div>
+          <div class="project-tile">
+            <div class="project-preview">
+              <a href="https://codepen.io/mtninja/full/pxxeqv/" target="_blank"
+                ><img
+                  src="https://res.cloudinary.com/mtninja/image/upload/c_scale,w_640/v1541635435/heat-map_kxiuyu.jpg"
+              /></a>
+            </div>
+            <div class="project-info">
+              <h3>D3 Heat Map</h3>
+              <p class="technologies">Technologies used: d3.js, HTML5, CSS3</p>
+              <p class="summary">
+                A heat map showing global temperature over a period of time
+              </p>
+            </div>
+          </div>
+        </div>
+        <p>
+          Check out more of my projects at
+          <a
+            id="profile-link"
+            href="https://github.com/jpstanway"
+            target="_blank"
+            >Github</a
+          >
+          | <a href="https://codepen.io/mtninja/" target="_blank">CodePen</a> |
+          <a href="https://codesandbox.io/u/jpstanway" target="_blank"
+            >CodeSandbox</a
+          >
+          | <a href="https://glitch.com/@jpstanway" target="_blank">Glitch</a>
+        </p>
+        <hr class="style-two" />
+        <h2 id="skills-awards">Skills &amp; Awards</h2>
+        <div class="certification">
+          <a
+            href="https://www.freecodecamp.org/certification/jpstanway/full-stack"
+            target="_blank"
+          >
+            <h3>freeCodeCamp Full Stack Certification</h3>
+          </a>
+        </div>
+        <div id="skills">
+          <div class="skill-icon">
+            <i class="fab fa-html5 fa-5x"></i>
+            <p class="icon-text">HTML5</p>
+          </div>
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt fa-5x"></i>
+            <p class="icon-text">CSS3</p>
+          </div>
+          <div class="skill-icon">
+            <i class="fab fa-sass fa-5x"></i>
+            <p class="icon-text">SASS</p>
+          </div>
+          <div class="skill-icon">
+            <i class="fab fa-js fa-5x"></i>
+            <p class="icon-text">JavaScript</p>
+          </div>
+          <div class="skill-icon">
+            <i class="fab fa-react fa-5x"></i>
+            <p class="icon-text">React/Redux</p>
+          </div>
+          <div class="skill-icon">
+            <i class="fab fa-php fa-5x"></i>
+            <p class="icon-text">PHP</p>
+          </div>
+          <div class="skill-icon">
+            <i class="fab fa-wordpress fa-5x"></i>
+            <p class="icon-text">WordPress</p>
+          </div>
+          <div class="skill-icon">
+            <i class="fab fa-github-square fa-5x"></i>
+            <p class="icon-text">Git/GitHub</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <ul id="contact-menu">
+        <li>
+          <i class="fas fa-envelope"></i> E-mail me at
+          <b>jpstanway@gmail.com</b>
+        </li>
+        <li>
+          <i class="fab fa-linkedin"></i> Shoot me a message on
+          <a href="https://www.linkedin.com/in/jordanstanway" target="_blank"
+            >LinkedIn</a
+          >
+        </li>
+      </ul>
+      <p>
+        You can also check out my blog at
+        <a id="cc-link" href="http://www.codeconveyor.com" target="_blank"
+          ><img
+            src="http://res.cloudinary.com/mtninja/image/upload/c_scale,w_200/v1534617698/cc-landing-logo_tpjics.png"
+        /></a>
+      </p>
+    </section>
+    <footer id="footer">
+      <p id="trademark">&copy; 2018 Jordan Stanway. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
