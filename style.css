@@ -3,38 +3,39 @@
 **/
 
 body {
-    margin: 0;
-    margin-top: 50px;
-    font-family: 'Source Sans Pro', sans-serif;
+  margin: 0;
+  margin-top: 50px;
+  font-family: "Source Sans Pro", sans-serif;
 }
 
 h1 {
-    position: absolute;
-    color: #fff;
-    font-weight: 400;
+  position: absolute;
+  color: #fff;
+  font-weight: 400;
 }
 
-h1, h2, 
+h1,
+h2,
 #nav li {
-    font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
-#projects, 
-#skills, 
+#projects,
+#skills,
 #contact {
-    text-align: center;
+  text-align: center;
 }
 
-#nav a:hover, 
+#nav a:hover,
 a:hover {
-    color: #b2aa20;
+  color: #b2aa20;
 }
 
 #nav-container,
 #projects-inner,
 #contact {
-    max-width: 1280px;
-    margin: auto;
+  max-width: 1280px;
+  margin: auto;
 }
 
 /**
@@ -42,34 +43,34 @@ a:hover {
 **/
 
 #navbar {
-    background: #20b2aa;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 2;
+  background: #20b2aa;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
 }
 
 #navbar p {
-    display: inline-block;
-    visibility: hidden;
+  display: inline-block;
+  visibility: hidden;
 }
 
 #nav {
-    list-style-type: none;
-    float: right;
-    padding-right: 50px;
+  list-style-type: none;
+  float: right;
+  padding-right: 50px;
 }
 
 #nav li {
-    display: inline;
-    margin-right: 15px;
-    font-size: 1.1em;
+  display: inline;
+  margin-right: 15px;
+  font-size: 1.1em;
 }
 
 #nav a {
-    text-decoration: none;
-    color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 /**
@@ -77,61 +78,61 @@ a:hover {
 **/
 
 #welcome-section {
-    height: 100vh;
-    background-color: #20b2aa;
-    display: flex;
-    justify-content: center;
+  height: 100vh;
+  background-color: #20b2aa;
+  display: flex;
+  justify-content: center;
 }
 
 #introduction {
-    width: 530px;
-    height: 312px;
-    margin-top: 25%;
-    color: #fff;
-    font-family: 'Ubuntu Mono', monospace;
-    box-shadow: 5px 5px 7px 0 rgba(0,0,0,0.56);
-    background: url('http://res.cloudinary.com/mtninja/image/upload/c_scale,h_312,w_530/v1531367704/portfolio-console_yrpuh0.png');
+  width: 530px;
+  height: 312px;
+  margin-top: 25%;
+  color: #fff;
+  font-family: "Ubuntu Mono", monospace;
+  box-shadow: 5px 5px 7px 0 rgba(0, 0, 0, 0.56);
+  background: url("http://res.cloudinary.com/mtninja/image/upload/c_scale,h_312,w_530/v1531367704/portfolio-console_yrpuh0.png");
 }
 
 #introduction p {
-    padding: 20px 10px 0px 10px;
+  padding: 20px 10px 0px 10px;
 }
 
 #introduction li {
-    padding-right: 15px;
-    margin-bottom: 1.5%;
+  padding-right: 15px;
+  margin-bottom: 1.5%;
 }
 
 #console-name {
-    color: #DBDBBD;
+  color: #dbdbbd;
 }
 
 #console-intro {
-    color: #68689D;
+  color: #68689d;
 }
 
 #console-list {
-    color: #BDBDDB;
+  color: #bdbddb;
 }
 
 #cursor {
-    height: 11px;
-    width: 6px;
-    background-color: #fff;
-    display: inline-block;
-    animation-name: blink;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+  height: 11px;
+  width: 6px;
+  background-color: #fff;
+  display: inline-block;
+  animation-name: blink;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes blink {
-    0% {
-        opacity: 1;
-    }
+  0% {
+    opacity: 1;
+  }
 
-    75% {
-        opacity: 0;
-    }
+  75% {
+    opacity: 0;
+  }
 }
 
 /**
@@ -139,30 +140,31 @@ a:hover {
 **/
 
 #projects {
-    background: url('http://res.cloudinary.com/mtninja/image/upload/v1531451394/small_steps_ulmqg5.png');
-    box-shadow: 0px 0px 5px black;
+  /*background: url('http://res.cloudinary.com/mtninja/image/upload/v1531451394/small_steps_ulmqg5.png');*/
+  background-color: #efefef;
+  box-shadow: 0px 0px 5px black;
 }
 
 #projects-inner {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 #projects-inner h2 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 #project-grid {
-    display: flex;
-    flex-wrap: wrap;
-    height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
 }
 
 #skills {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    height: 100%;
-    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  height: 100%;
+  margin: auto;
 }
 
 /**
@@ -170,29 +172,29 @@ a:hover {
 **/
 
 #contact {
-    padding: 100px 0 150px 0;
+  padding: 100px 0 150px 0;
 }
 
 #contact-menu {
-    list-style-type: none;
-    width: 30%;
-    margin: auto;
-    text-align: left;
-    padding-left: 7%;
+  list-style-type: none;
+  width: 30%;
+  margin: auto;
+  text-align: left;
+  padding-left: 7%;
 }
 
 #contact-menu li {
-    margin-bottom: 10px;
-    font-size: 1.1em;
+  margin-bottom: 10px;
+  font-size: 1.1em;
 }
 
 #cc-link:hover {
-    opacity: 0.75;
+  opacity: 0.75;
 }
 
 #cc-link img {
-    position: relative;
-    top: 10px;
+  position: relative;
+  top: 10px;
 }
 
 /**
@@ -200,14 +202,14 @@ a:hover {
 **/
 
 #footer {
-    background: #aa20b2;
-    text-align: center;
+  background: #aa20b2;
+  text-align: center;
 }
 
 #trademark {
-    display: inline-block;
-    color: #fff;
-    font-size: 0.8em;
+  display: inline-block;
+  color: #fff;
+  font-size: 0.8em;
 }
 
 /**
@@ -215,126 +217,132 @@ a:hover {
 **/
 
 .console-arrow {
-    color: #fff;
+  color: #fff;
 }
 
 .project-tile {
-    width: 30%;
-    height: auto;
-    margin: 1.25% 1.665%;
+  width: 30%;
+  height: auto;
+  margin: 1.25% 1.665%;
 }
 
-.project-tile h3, .project-tile p {
-    margin: 0;
+.project-tile h3,
+.project-tile p {
+  margin: 0;
 }
 
 .project-preview {
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.56);
-    border-radius: 2px;
-    margin-bottom: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.56);
+  border-radius: 2px;
+  margin-bottom: 10px;
 }
 
 .project-preview img {
-    max-width: 100%;
-    display: block;
-    height: auto;
+  max-width: 100%;
+  display: block;
+  height: auto;
 }
 
 .project-preview:hover {
-    opacity: 0.85;
-    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.56);
+  opacity: 0.85;
+  box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.56);
 }
 
 .project-info {
-    text-align: left;
-    padding: 0 10px;
+  text-align: left;
+  padding: 0 10px;
 }
 
 .technologies {
-    font-style: italic;
-    padding-bottom: 5px;
+  font-style: italic;
+  padding-bottom: 5px;
 }
 
 .certification {
-    background-color: #b2aa20;
-    width: 50%;
-    margin: 40px auto;
-    border-radius: 4px;
+  background-color: #b2aa20;
+  width: 50%;
+  margin: 40px auto;
+  border-radius: 4px;
 }
 
 .certification a {
-    text-decoration: none;
-    color: #000;
+  text-decoration: none;
+  color: #000;
 }
 
 .certification a:hover {
-    color: #eee;
+  color: #eee;
 }
 
 .certification h3 {
-    padding: 20px 40px;
-    height: 100%;
+  padding: 20px 40px;
+  height: 100%;
 }
 
 .cert-inactive {
-    background-color: #20b2aa;
-    color: #fff;
-    opacity: 0.85;
+  background-color: #20b2aa;
+  color: #fff;
+  opacity: 0.85;
 }
 
 .icon-text {
-    margin: 10px 0px;
-    color: #616161;
+  margin: 10px 0px;
+  color: #616161;
 }
 
 /* icon hover styles */
 .fa-html5:hover {
-    color: #E34F26;
-    transform: scale(1.2);
+  color: #e34f26;
+  transform: scale(1.2);
 }
 
 .fa-css3-alt:hover {
-    color: #1758A7;
-    transform: scale(1.2);
+  color: #1758a7;
+  transform: scale(1.2);
 }
 
 .fa-sass:hover {
-    color: #FEBE89;
-    transform: scale(1.2);
+  color: #febe89;
+  transform: scale(1.2);
 }
 
 .fa-js:hover {
-    color: #F0DB4F;
-    transform: scale(1.2);
+  color: #f0db4f;
+  transform: scale(1.2);
 }
 
 .fa-react:hover {
-    color: #8AD4DF;
-    transform: scale(1.2);
+  color: #8ad4df;
+  transform: scale(1.2);
 }
 
 .fa-php:hover {
-    color: #6C7EB7;
-    transform: scale(1.2);
+  color: #6c7eb7;
+  transform: scale(1.2);
 }
 
 .fa-wordpress:hover {
-    color: #01579B;
-    transform: scale(1.2);
+  color: #01579b;
+  transform: scale(1.2);
 }
 
 .fa-github-square:hover {
-    color: #0D2636;
-    transform: scale(1.2);
+  color: #0d2636;
+  transform: scale(1.2);
 }
 
 /* hr styles */
 
 hr.style-two {
-    border: 0;
-    height: 1px;
-    margin: 40px 0;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+  margin: 40px 0;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 /**
@@ -342,69 +350,67 @@ hr.style-two {
 **/
 
 @media screen and (min-width: 1281px) {
-    #introduction {
-        margin-top: 10%;
-    }
+  #introduction {
+    margin-top: 10%;
+  }
 }
 
 @media screen and (max-width: 1024px) {
+  #skills {
+    width: 80%;
+  }
 
-    #skills {
-        width: 80%;
-    }
+  #contact-menu {
+    padding-left: 3%;
+  }
 
-    #contact-menu {
-        padding-left: 3%;
-    }
-
-    .certification {
-        width: 60%;
-    }
-} 
+  .certification {
+    width: 60%;
+  }
+}
 
 @media screen and (max-width: 799px) {
+  #contact-menu {
+    width: 60%;
+    padding-left: 25%;
+  }
 
-    #contact-menu {
-        width: 60%;
-        padding-left: 25%;
-    }
-    
-    .certification {
-        width: 75%;
-    }
+  .certification {
+    width: 75%;
+  }
 }
 
 @media screen and (max-width: 499px) {
-    #welcome-section {
-        padding: 0 20px;
-    }
+  #welcome-section {
+    padding: 0 20px;
+  }
 
-    #introduction {
-        width: 100%;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: right;
-        font-size: 0.85em;
-        padding: 5px;
-    }
+  #introduction {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right;
+    font-size: 0.85em;
+    padding: 5px;
+  }
 
-    #skills {
-        width: 85%;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
+  #skills {
+    width: 85%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
 
-    #contact-menu {
-        width: 80%;
-        padding-left: 15%;
-    }
+  #contact-menu {
+    width: 80%;
+    padding-left: 15%;
+  }
 
-    .project-tile {
-        width: 45%;
-        margin: 1.25% 2.5%;
-    }
+  .project-tile {
+    width: 45%;
+    margin: 1.25% 2.5%;
+  }
 
-    .certification {
-        width: 65%;
-    }
+  .certification {
+    width: 65%;
+  }
 }
